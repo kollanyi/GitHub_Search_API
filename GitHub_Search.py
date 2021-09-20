@@ -78,5 +78,5 @@ for year in years:
         chk_limit()
 
 ## Save the output in JSON
-with open('GitHub_search_results_test.json', 'w') as file:
+with open('GitHub_search_results.json', 'w') as file:
     json.dump(repositories, file)
