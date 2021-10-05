@@ -29,7 +29,7 @@ def date_period(year,quarter):
     elif quarter == 2:
         date_formatted = f'"{year}-04-01..{year}-06-30"'
     elif quarter == 3:
-        date_formatted = f'"{year}-07-01..{year}-10-30"'
+        date_formatted = f'"{year}-07-01..{year}-09-30"'
     elif quarter == 4:
         date_formatted = f'"{year}-10-01..{year}-12-31"'
     return(date_formatted)
